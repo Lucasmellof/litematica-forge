@@ -29,7 +29,7 @@
 		"MixinWorldChunk",
 		"MixinWorldRenderer"
 	],
-	"refmap": "${mod_id}.refmap.json",
+	"refmap": "litematica.refmap.json",
 	"injectors": {
 		"defaultRequire": 1
 	}
