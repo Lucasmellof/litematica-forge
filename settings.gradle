@@ -1,9 +1,12 @@
 pluginManagement {
 	repositories {
-		maven {
-			name = 'Fabric'
-			url = 'https://maven.fabricmc.net/'
-		}
 		gradlePluginPortal()
+		maven {
+			name = 'MinecraftForge'
+			url = 'https://maven.minecraftforge.net/'
+		}
+		maven { url = 'https://maven.parchmentmc.org' } // Add this line
 	}
 }
+include(":malilib-forge")
+project(":malilib-forge").projectDir = file("../malilib-forge")

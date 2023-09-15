@@ -30,7 +30,7 @@
 	},
 
 	"mixins": [
-		"mixins.litematica.json"
+		"litematica.mixins.json"
 	],
 
 	"depends": {
